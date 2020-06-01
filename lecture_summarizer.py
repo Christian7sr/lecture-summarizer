@@ -4,7 +4,6 @@ from typing import List
 from abc import abstractmethod
 import json
 
-
 class RequestProcessor(object):
 
     def __init__(self, args):

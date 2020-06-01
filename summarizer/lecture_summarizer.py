@@ -5,8 +5,6 @@ from sklearn.decomposition import PCA
 from gensim.summarization.summarizer import summarize
 from sklearn.cluster import AffinityPropagation
 from summarizer.BertParent import BertParent
-import matplotlib
-matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 from typing import List
 

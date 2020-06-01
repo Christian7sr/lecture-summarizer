@@ -5,6 +5,7 @@ project = dict(
     version='0.0.1',
     install_requires=[
         'requests',
+        'matplotlib>=3.0'
     ],
     py_modules=['lecture_summarizer'],
     entry_points={
